@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* NEUE HAAS */
+@font-face {
+    font-family: "Neue Haas Grotesk Text Pro";
+    src: local[Arial], url(font/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayRoman.ttf);
+}
+@font-face {
+    font-family: "Neue Haas Grotesk Text Pro";
+    src: local[Arial], url(font/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Neue Haas Grotesk Text Pro";
+    src: local[Arial], url(font/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayMediu.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Neue Haas Grotesk Text Pro";
+    src: local[Arial], url(font/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBlack.ttf);
+    font-weight: 800;
+}
+
+/* SPACE MONO */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* DUNK 95 */
+@font-face {
+    font-family: 'Dunk 95';
+    src: url(font/Dunk-95-TRIAL-VERSION/dunk95trialversion-bold.otf);
+}
+
+/* ARQUIVO DE PADRONIZACAO */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Neue Haas Grotesk Text Pro";
+    color: white;
+    background-color: black;
+}
