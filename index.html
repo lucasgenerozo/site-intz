@@ -5,34 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="_css/home.css">
 </head>
 <body>
     <nav id="nav-bar">
-        <img src="img/homepage/navbar/INTZ_Logo.png" alt="Logo INTZ">
+        <img src="img/INTZ_Logo.png" alt="Logo INTZ">
 
+        <!-- transforma isso aqui é <a> é prOblema do lucas do futuro 👍 -->
         <ul>
-            <li>Sobre</li>
-            <li>Store</li>
-            <li>Institucional</li>
-            <li>Notícias</li>
+            <li><a id="a-sobre">Sobre</a>
+                <ul id="dropdown-sobre" class="dropdown">
+                    <li><a href="sobre_intz.html">A INTZ</a></li>
+                    <li><a href="">Equipe</a></li>
+                    <li><a href="">Patrocinadores</a></li>
+                </ul>
+            </li>
+            <li><a href="">Store</a></li>
+            <li><a href="">Institucional</a></li>
+            <li><a href="">Noticias</a></li>
         </ul>
 
         <div>
-            <a href="#">
+            <a href="https://twitter.com/INTZ" target="_blank">
                 <img src="img/homepage/navbar/Twitter.png" alt="Logo do Twitter ">
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/intzesports/" target="_blank">
                 <img src="img/homepage/navbar/Instagram.png" alt="Logo do Instagram">
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/INTZeSports/" target="_blank">
                 <img src="img/homepage/navbar/Facebook.png" alt="Logo do Facebook">
             </a>
-            <a href="#">
+            <a href="https://discord.com/invite/gUnjWPggYb" target="_blank">
                 <img src="img/homepage/navbar/Discord.png" alt="Logo do Discord">
             </a>
-            <a href="#">
+            <a href="https://www.youtube.com/@INTZeSports" target="_blank">
                 <img src="img/homepage/navbar/YouTube.png" alt="Logo do YouTube">
             </a>
         </div>
@@ -86,5 +93,7 @@
         </div>
         <a href="#nav-bar" class="back-to-top">Voltar ao topo</a>
     </footer>
+
+    <script src="_js/home.js"></script>
 </body>
 </html>

@@ -1,0 +1,67 @@
+/* BARRA DE NAVEGAÇAO */
+nav#nav-bar {
+    width: 100%;
+    padding: 1.5%;
+    padding-left: 7%;
+    background-color: black;
+}
+
+nav#nav-bar img {
+    width: 6.5%;
+}
+
+/* SECTION */
+
+section#sobre-intz {
+    margin: 3% 6.5%;
+}
+
+.card {
+    margin-bottom: 5%;
+}
+
+.card h2 {
+    font-family: 'Dunk 95';
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+#quem-somos {
+    width: 100%;
+}
+
+#quem-somos h1 {
+    font-family: 'Dunk 95';
+    font-size: 80px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+}
+
+#quem-somos p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.inline-cards div {
+    width: 30%;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+#valores h2 {
+    margin-bottom: 1%;
+}
+
+#valores p {
+    margin: 10px 0px;
+}
